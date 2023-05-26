@@ -2,7 +2,7 @@
 
 A custom implementation for [tippy.js](https://atomiks.github.io/tippyjs/)
 
-There are two functions in `tippy_utils.R`, `make_tippy()` and `show_with_tippy()` and both have a specific purpose. The former works with tag components like `div()` or `p`. The latter works to show something with the tooltip, such as a `reactable` `header` or `cell`.
+There are two functions in `tippy_utils.R`, `make_tippy()` and `show_with_tippy()` and both have a specific purpose. The former works with tag components like `div()` or `p()`. The latter works to show something with the tooltip, such as a `reactable` `header` or `cell`.
 
 For `reactable` or any other `htmlwidget`, you will need to use `htmlwidgets::onRender(activate_tippy())` to make the tooltips appear.
 
